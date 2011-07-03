@@ -20,9 +20,9 @@ Pour chaque problème, il faut essayer de trouver (tout ou une partie) :
   * Il peut utiliser des framework de test/bench existant (eg scalacheck, specs2, scalatest, junit)
   * *Il peut être envoyer dès l'annonce du problème et sans solution.*
 
-* Les Problèmes sont "publiés" tous les jours du lundi au vendredi sur la mailing-list du [PSUG (Paris Scala User Group)](http://groups.google.com/group/paris-scala-user-group).
-* Il y a 1 à 3 par jour
-* Vous pouvez proposer et discuter des solutions en répondant au message avec le problème. 
+* Les Problèmes sont "publiés" tous les jours du lundi au vendredi sur la mailing-list du [PSUG (Paris Scala User Group)](http://groups.google.com/group/paris-scala-user-group) (à l'heure du déjeuner +/-).
+* Il y a 1 à 3 problèmes par jour
+* Vous pouvez proposer et discuter des solutions en répondant sur le `Thread` du message avec le problème. 
 * Tous les messages du dojo ont un sujet de la forme "[Dojo] P<xxx> (<*>) : <label>" donc assez facile à filtrer sur vos clients email.
   * xxx : numéro du problème 
   * * : "difficulté" du problème 
