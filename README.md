@@ -10,14 +10,16 @@ Il n'y a rien à gagner, juste le plaisir de chercher et aucune obligation de jo
 
 ## "Règles"
 
-* Pour chaque problème, il faut essayer de trouver (tout ou une partie) :
-  * une implémentation de la méthode pour satisfaire l'exemple et le cas général.
-    * Elle peut être élégante, optimisée (mem, cpu), surprenant, original, ...
-    * Elle peut utiliser une fonction existante dans une lib (connaitre les lib et framework est important aussi)
-    * *essayer ne pas envoyer de solution avant 16H*
-  * un test (unitaire, fonctionnel, charge/bench) pour les implementations de solution
-    * Il peut utiliser des framework de test/bench existant (eg scalacheck, specs2, scalatest, junit)
-    * *Il peut être envoyer dès l'annonce du problème et sans solution.*
+Pour chaque problème, il faut essayer de trouver (tout ou une partie) :
+
+* une implémentation de la méthode pour satisfaire l'exemple et le cas général.
+  * Elle peut être élégante, optimisée (mem, cpu), surprenant, original, ...
+  * Elle peut utiliser une fonction existante dans une lib (connaitre les lib et framework est important aussi)
+  * *essayer ne pas envoyer de solution avant 16H*
+* un test (unitaire, fonctionnel, charge/bench) pour les implementations de solution
+  * Il peut utiliser des framework de test/bench existant (eg scalacheck, specs2, scalatest, junit)
+  * *Il peut être envoyer dès l'annonce du problème et sans solution.*
+
 * Les Problèmes sont "publiés" tous les jours du lundi au vendredi sur la mailing-list du [PSUG (Paris Scala User Group)](http://groups.google.com/group/paris-scala-user-group).
 * Il y a 1 à 3 par jour
 * Vous pouvez proposer et discuter des solutions en répondant au message avec le problème. 
