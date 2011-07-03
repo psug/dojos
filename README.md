@@ -9,7 +9,7 @@ Les objectifs sont de s'amuser, d'apprendre Scala et d'échanger autour de petit
 Pour chaque probléme, il faut essayer de trouver (tout ou une partie):
 
 * une implémentation de la méthode pour satisfaire l'exemple et le cas général.
-  Elle peut être élégante, optimisée (mem, cpu), ...
+  Elle peut être élégante, optimisée (mem, cpu), surprenant, original, ...
   Elle peut utiliser une fonction existante dans une lib (connaitre les lib et framework est important aussi)
   *essayer ne pas envoyer de solution avant 16H*
 * un test (unitaire, fonctionnel, charge/bench) pour les implementations de solution
@@ -55,7 +55,8 @@ Toutes les contributions sont les bien-venues, donc pour ceux qui connaissent gi
     # git clone git://github.com/psug/dojos.git
     # si vous n'avez pas 'git', vous pouvez utiliser le bouton "download" pour avoir une archive du projet
     cd dojos
-    scala -Djava.ext.dirs=lib/scala_2.9.0-1
+    #scala -Djava.ext.dirs=lib/scala_2.9.0-1
+    ./repl
     
     scala> :load src/p001.scala
     Loading src/p001.scala...
