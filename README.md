@@ -5,31 +5,28 @@ Mini projet pour experimenter les "Dojos" du [PSUG (Paris Scala User Group)](htt
 ## Objectifs
 
 Les objectifs sont de s'amuser, d'apprendre Scala et d'échanger autour de petits problèmes.
-
-Pour chaque probléme, il faut essayer de trouver (tout ou une partie):
-
-* une implémentation de la méthode pour satisfaire l'exemple et le cas général.
-  Elle peut être élégante, optimisée (mem, cpu), surprenant, original, ...
-  Elle peut utiliser une fonction existante dans une lib (connaitre les lib et framework est important aussi)
-  *essayer ne pas envoyer de solution avant 16H*
-* un test (unitaire, fonctionnel, charge/bench) pour les implementations de solution
-  Il peut utiliser des framework de test/bench existant (eg scalacheck, specs2, scalatest, junit)
-  *Il peut être envoyer dès l'annonce du problème et sans solution.*
   
 Il n'y a rien à gagner, juste le plaisir de chercher et aucune obligation de jouer. 
 
 ## "Règles"
 
-* Les Dojos sont "publiées" tous les jours du lundi au vendredi sur la mailing-list du PSUG.
-* Vous pouvez proposer et discuter des solutions en répondant au message avec le problème (1 à 3 par jours). 
-* Tous les messages du dojo ont un sujet de la forme "[Dojo] P<xxx> (<*>) :
+* Pour chaque problème, il faut essayer de trouver (tout ou une partie) :
+  * une implémentation de la méthode pour satisfaire l'exemple et le cas général.
+    * Elle peut être élégante, optimisée (mem, cpu), surprenant, original, ...
+    * Elle peut utiliser une fonction existante dans une lib (connaitre les lib et framework est important aussi)
+    * *essayer ne pas envoyer de solution avant 16H*
+  * un test (unitaire, fonctionnel, charge/bench) pour les implementations de solution
+    * Il peut utiliser des framework de test/bench existant (eg scalacheck, specs2, scalatest, junit)
+    * *Il peut être envoyer dès l'annonce du problème et sans solution.*
+* Les Problèmes sont "publiés" tous les jours du lundi au vendredi sur la mailing-list du [PSUG (Paris Scala User Group)](http://groups.google.com/group/paris-scala-user-group).
+* Il y a 1 à 3 par jour
+* Vous pouvez proposer et discuter des solutions en répondant au message avec le problème. 
+* Tous les messages du dojo ont un sujet de la forme "[Dojo] P<xxx> (<*>) : <label>" donc assez facile à filtrer sur vos clients email.
+  * xxx : numéro du problème 
+  * * : "difficulté" du problème 
+  * label : libellé du problème (en anglais ou français)
 
-      <label>" donc assez facile à filtrer sur vos clients email. 
-      xxx : numéro du problème 
-      * : "difficulté" du problème 
-      label : libellé du problème (en anglais ou français)
-
-Les 99 premiers problèmes (et certaines solutions) proviennent de [http://aperiodic.net/phil/scala/s-99/](http://aperiodic.net/phil/scala/s-99/) 
+Les 99 premiers problèmes proviennent de [http://aperiodic.net/phil/scala/s-99/](http://aperiodic.net/phil/scala/s-99/) 
 
 # Le projet sur github
 
