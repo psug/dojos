@@ -163,7 +163,8 @@ object p009 {
     val r = new util.Random
     val input = (1 to 100000).map{ _ => Symbol( r.nextInt(10).toString ) }.toList
     for (s <- solutions) {
-      println(time(s._1, s._2(input)))
+      System.gc()
+      printTimingOf(s._1, s._2(input))
     }
   }
 
