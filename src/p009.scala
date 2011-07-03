@@ -85,7 +85,7 @@ object p009 {
       val res = Buffer.empty[Buffer[T]] 
       var current = l.head 
       var buf = Buffer(current) 
-      l.foreach { x => if(x == current) buf += x else { res += buf ; buf = Buffer(x) ; current = x } } 
+      l.tail.foreach { x => if(x == current) buf += x else { res += buf ; buf = Buffer(x) ; current = x } } 
       res += buf 
       res.toList.map( _.toList )
     } 
