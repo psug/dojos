@@ -18,7 +18,7 @@ Pour chaque probléme, il faut essayer de trouver (tout ou une partie):
   
 Il n'y a rien à gagner, juste le plaisir de chercher et aucune obligation de jouer. 
 
-## Modalités
+## "Règles"
 
 * Les Dojos sont "publiées" tous les jours du lundi au vendredi sur la mailing-list du PSUG.
 * Vous pouvez proposer et discuter des solutions en répondant au message avec le problème (1 à 3 par jours). 
@@ -36,8 +36,10 @@ Les 99 premiers problèmes (et certaines solutions) proviennent de [http://aperi
 ## Objectifs
 
 * un peu flou ;-)
+* "garder" les règles
 * fournir un projet de base pour tester du code pour les Dojos (avec toutes les libs).
 * éventuellement, stocker certaines solutions
+* le projet est une aide, aucune obligation de l'utiliser, ou d'y placer son code source
 
 ## Modalités
 
@@ -49,6 +51,9 @@ La version de scala utilisée est 2.9.0-1.
 Toutes les contributions sont les bien-venues, donc pour ceux qui connaissent git/github (fork + pull-request), pour les autres patch ou fichiers par email (sur la ml) ou ticket.
 
     export PATH=$SCALA_HOME/bin:$PATH
+    cd psug
+    # git clone git://github.com/psug/dojos.git
+    # si vous n'avez pas 'git', vous pouvez utiliser le bouton "download" pour avoir une archive du projet
     cd dojos
     scala -Djava.ext.dirs=lib/scala_2.9.0-1
     
