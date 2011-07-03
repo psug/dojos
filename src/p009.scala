@@ -159,19 +159,22 @@ object p009 {
     , ( "AriéBenichou", AriéBenichou.pack[Symbol] )
   )
   
-  def miniBench {
-    val r = new util.Random 
+  def miniBench() {
+    val r = new util.Random
     val input = (1 to 100000).map{ _ => Symbol( r.nextInt(10).toString ) }.toList
     for (s <- solutions) {
       println(time(s._1, s._2(input)))
     }
   }
 
-  def miniTest {
+  def miniTest() {
     for (s <- solutions) {
       println("test : " + s._1)
       println("-- énonce : " +
         (s._2(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) == List(List('a, 'a, 'a, 'a), List('b), List('c, 'c), List('a, 'a), List('d), List('e, 'e, 'e, 'e)))
+      )
+      println("-- Nil : " +
+        (s._2(Nil) == Nil)
       )
       println("-- DavidBernard.propFlattenPackIsIdentity")
       DavidBernard.propFlattenPackIsIdentity(s._2).check
