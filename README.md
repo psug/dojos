@@ -15,7 +15,7 @@ Pour chaque problème, il faut essayer de trouver (tout ou une partie) :
 * une implémentation de la méthode pour satisfaire l'exemple et le cas général.
   * Elle peut être élégante, optimisée (mem, cpu), surprenant, original, ...
   * Elle peut utiliser une fonction existante dans une lib (connaitre les lib et framework est important aussi)
-  * *essayer ne pas envoyer de solution avant 16H*
+  * Réflechissez avant de répondre et essayer de ne poster qu'une solution (dans la vie comme dans le code, on fait des choix)
 * un test (unitaire, fonctionnel, charge/bench) pour les implementations de solution
   * Il peut utiliser des framework de test/bench existant (eg scalacheck, specs2, scalatest, junit)
   * *Il peut être envoyer dès l'annonce du problème et sans solution.*
