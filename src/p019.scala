@@ -1,24 +1,4 @@
-import scala.util.matching.Regex
-
-trait Solution {
-  val pattern = new Regex("""(.*)\$(.*)\$""", "problem", "solutionName");
-  def simpleName:String=pattern.findFirstMatchIn(this.getClass.getSimpleName).get.group ("solutionName")
-}
-trait SolutionP019 extends Solution {
-  def rotate[T] (n:Int, l:List[T]):List[T]
-}
-
-trait Solutions[Problem] {
-  def doc():String
-  def tests ()
-  def implementations ():List[Problem]
-}
-
 object p019 extends Solutions[SolutionP019]{
-  def main(args: Array[String]) = {
-    println (doc)
-    tests
-  }
 
   def doc = """
     http://aperiodic.net/phil/scala/s-99/p19.scala
