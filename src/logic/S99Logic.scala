@@ -1,12 +1,24 @@
 package logic
 
+class S99Logic(val b: Boolean) {
+  def and(a: Boolean) = a && b
+  def or(a: Boolean) = a || b
+  def nor(a: Boolean) = a || !b
+  def nand(a: Boolean) = a && !b
+  def impl(a: Boolean) = !a || b
+  def equ(a: Boolean) = a == b
+}
+
 object S99Logic {
+  implicit def boolean2S99Logic(b: Boolean): S99Logic = new S99Logic(b)
+
   def and(a: Boolean, b: Boolean) = a && b
   def or(a: Boolean, b: Boolean) = a || b
   def nor(a: Boolean, b: Boolean) = a || !b
   def nand(a: Boolean, b: Boolean) = a && !b
   def impl(a: Boolean, b: Boolean) = !a || b
   def equ(a: Boolean, b: Boolean) = a == b
+  def not(b: Boolean) = !b
 
   def table2(f: ((Boolean, Boolean) => Boolean)) {
     table(2, { s: Seq[Boolean] => f(s(0), s(1)) })
@@ -51,10 +63,6 @@ object S99Logic {
   }
 
   def main(args: Array[String]) {
-    def f(a: Seq[Boolean]) = and(a(0), or(a(1), a(2)))
-    table(3, f)
-    for (f <- Seq(and _, or _, nor _, nand _, impl _, equ _)) {
-      table2(f)
-    }
+    table2((a: Boolean, b: Boolean) => a and (a or not(b)))
   }
 }
